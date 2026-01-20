@@ -177,7 +177,7 @@ All answer-generation logic is implemented in **answer_generation.py**
 
 When the user submits a query, the pipeline is extended as follows:
 
-1. Query correction suggestion (explained in part **3. FURTHER AI ENHANCEMENTS**)
+1. Query correction suggestion (explained in part **7. FURTHER AI ENHANCEMENTS**)
 
 2. Question detection via LLM
 
