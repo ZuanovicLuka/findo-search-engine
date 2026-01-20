@@ -245,5 +245,5 @@ Also to make the user experience as smooth as possible, each computed summary is
 
 ## Authors
 
-- Luka Zuanović (https://github.com/yourusername)
+- Luka Zuanović (https://github.com/ZuanovicLuka)
 - Dominik Poljak (https://github.com/colleagueusername)
