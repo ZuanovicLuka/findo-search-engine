@@ -1,0 +1,76 @@
+
+=============================
+Model: cross-encoder/mmarco-mMiniLMv2-L12-H384-v1
+=============================
+
+
+Average rerank time for model: 6.1603 seconds
+
+Number of times document 85321 was first: 10 out of 15
+Number of times document 85321 was in top-10: 13 out of 15
+
+
+=============================
+Model: unicamp-dl/mMiniLM-L6-v2-pt-v2
+=============================
+
+
+Average rerank time for model: 3.1409 seconds
+
+Number of times document 85321 was first: 9 out of 15
+Number of times document 85321 was in top-10: 13 out of 15
+
+
+=============================
+Model: cross-encoder/ms-marco-TinyBERT-L2-v2
+=============================
+
+
+Average rerank time for model: 0.3366 seconds
+
+Number of times document 85321 was first: 1 out of 15
+Number of times document 85321 was in top-10: 9 out of 15
+
+
+=============================
+Model: cross-encoder/ms-marco-MiniLM-L2-v2
+=============================
+
+
+Average rerank time for model: 1.0783 seconds
+
+Number of times document 85321 was first: 8 out of 15
+Number of times document 85321 was in top-10: 12 out of 15
+
+
+=============================
+Model: cross-encoder/ms-marco-MiniLM-L4-v2
+=============================
+
+
+Average rerank time for model: 1.9825 seconds
+
+Number of times document 85321 was first: 9 out of 15
+Number of times document 85321 was in top-10: 12 out of 15
+
+
+=============================
+Model: cross-encoder/ms-marco-MiniLM-L6-v2
+=============================
+
+
+Average rerank time for model: 2.9273 seconds
+
+Number of times document 85321 was first: 9 out of 15
+Number of times document 85321 was in top-10: 12 out of 15
+
+
+=============================
+Model: cross-encoder/ms-marco-MiniLM-L12-v2
+=============================
+
+
+Average rerank time for model: 5.6308 seconds
+
+Number of times document 85321 was first: 8 out of 15
+Number of times document 85321 was in top-10: 12 out of 15

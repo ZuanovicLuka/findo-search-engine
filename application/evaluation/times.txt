@@ -1,0 +1,111 @@
+
+=====================
+Loaded CrossEncoder: cross-encoder/mmarco-mMiniLMv2-L12-H384-v1
+
+--- Architecture ---
+Model type:              xlm-roberta
+Hidden size:             384
+Number of layers:        12
+Attention heads:         12
+Max position embeddings: 514
+
+Total parameters:        117,641,089
+
+Average time for 4 queries: 16.9559 seconds
+=====================
+
+
+=====================
+Loaded CrossEncoder: unicamp-dl/mMiniLM-L6-v2-pt-v2
+
+--- Architecture ---
+Model type:              xlm-roberta
+Hidden size:             384
+Number of layers:        6
+Attention heads:         12
+Max position embeddings: 514
+
+Total parameters:        106,994,305
+
+Average time for 4 queries: 8.5713 seconds
+=====================
+
+
+=====================
+Loaded CrossEncoder: cross-encoder/ms-marco-TinyBERT-L2-v2
+
+--- Architecture ---
+Model type:              bert
+Hidden size:             128
+Number of layers:        2
+Attention heads:         2
+Max position embeddings: 512
+
+Total parameters:        4,386,049
+
+Average time for 4 queries: 0.7862 seconds
+=====================
+
+
+=====================
+Loaded CrossEncoder: cross-encoder/ms-marco-MiniLM-L2-v2
+
+--- Architecture ---
+Model type:              bert
+Hidden size:             384
+Number of layers:        2
+Attention heads:         12
+Max position embeddings: 512
+
+Total parameters:        15,615,745
+
+Average time for 4 queries: 3.2315 seconds
+=====================
+
+
+=====================
+Loaded CrossEncoder: cross-encoder/ms-marco-MiniLM-L4-v2
+
+--- Architecture ---
+Model type:              bert
+Hidden size:             384
+Number of layers:        4
+Attention heads:         12
+Max position embeddings: 512
+
+Total parameters:        19,164,673
+
+Average time for 4 queries: 6.0733 seconds
+=====================
+
+
+=====================
+Loaded CrossEncoder: cross-encoder/ms-marco-MiniLM-L6-v2
+
+--- Architecture ---
+Model type:              bert
+Hidden size:             384
+Number of layers:        6
+Attention heads:         12
+Max position embeddings: 512
+
+Total parameters:        22,713,601
+
+Average time for 4 queries: 8.6957 seconds
+=====================
+
+
+=====================
+Loaded CrossEncoder: cross-encoder/ms-marco-MiniLM-L12-v2
+
+--- Architecture ---
+Model type:              bert
+Hidden size:             384
+Number of layers:        12
+Attention heads:         12
+Max position embeddings: 512
+
+Total parameters:        33,360,385
+
+Average time for 4 queries: 16.9232 seconds
+=====================

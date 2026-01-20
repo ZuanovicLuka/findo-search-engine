@@ -1,0 +1,44 @@
+
+=====================
+Model: cross-encoder/mmarco-mMiniLMv2-L12-H384-v1
+nDCG@10 (TREC DL 2019): 0.1460
+=====================
+
+=====================
+Model: unicamp-dl/mMiniLM-L6-v2-pt-v2
+nDCG@10 (TREC DL 2019): 0.1278
+=====================
+
+=====================
+Model: cross-encoder/ms-marco-TinyBERT-L2-v2
+nDCG@10 (TREC DL 2019): 0.1301
+=====================
+
+=====================
+Model: cross-encoder/ms-marco-MiniLM-L2-v2
+nDCG@10 (TREC DL 2019): 0.1376
+=====================
+
+=====================
+Model: cross-encoder/ms-marco-MiniLM-L4-v2
+nDCG@10 (TREC DL 2019): 0.1457
+=====================
+
+=====================
+Model: cross-encoder/ms-marco-MiniLM-L6-v2
+nDCG@10 (TREC DL 2019): 0.1454
+=====================
+
+=====================
+Model: cross-encoder/ms-marco-MiniLM-L12-v2
+nDCG@10 (TREC DL 2019): 0.1517
+=====================
+
+Summary (sorted by nDCG@10):
+MiniLM_L12            nDCG@10 = 0.1517
+mmarco_mMiniLMv2_L12_H384  nDCG@10 = 0.1460
+MiniLM_L4             nDCG@10 = 0.1457
+MiniLM_L6             nDCG@10 = 0.1454
+MiniLM_L2             nDCG@10 = 0.1376
+TinyBERT_L2           nDCG@10 = 0.1301
+mMiniLM_L6_pt         nDCG@10 = 0.1278
