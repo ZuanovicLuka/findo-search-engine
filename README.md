@@ -242,3 +242,8 @@ We chose this model because BART (Bidirectional and Auto-Regressive Transformers
 We tried using Gemini for the sumarization task and it showed pretty good results as well. However, BART made it easier to control the length of the summaries and since we have limited api calls to the Gemini we decided to go for this solution.
 
 Also to make the user experience as smooth as possible, each computed summary is saved so that the users can toggle between real text and summaries immediately without waiting again for computing it by the model.
+
+## Authors
+
+- Luka Zuanović (https://github.com/yourusername)
+- Dominik Poljak (https://github.com/colleagueusername)
