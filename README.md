@@ -7,7 +7,7 @@ This project implements a search engine called "Findo" with both a REST API for 
 This project requires `ptwiki-articles-with-redirects.arrow` (≈ 1.7GB).  
 Due to GitHub file size limits, the dataset is not included in the repository.
 
-Download it from Dropbox and place it in the `data/` folder:
+Download it from Dropbox and place it in the `application/data/` folder:
 
 - Download: https://www.dropbox.com/scl/fi/9c4rff1dmym5ud8aahn8r/ptwiki-articles-with-redirects.arrow?rlkey=cviaz6lfk3xrji9t4um4g87d3&e=1&st=5impxuks&dl=1
 - Path: `data/ptwiki-articles-with-redirects.arrow`
