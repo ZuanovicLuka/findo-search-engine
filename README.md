@@ -26,7 +26,7 @@ For this project's code to work, first you need to run the whole process of crea
 uv sync
 ```
 
-2. The CLI indexer runs with memory monitoring enabled to enforce the 2GB memory limit::
+2. The CLI indexer runs with memory monitoring enabled to enforce the 2GB memory limit:
 
 ```bash
 uv run cli [arguments]
