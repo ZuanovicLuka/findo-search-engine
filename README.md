@@ -129,7 +129,7 @@ For each token in the query, its byte offset is retrieved from term_offsets.json
 
 ### Ranking with BM25 algorithm
 
-Documents are scored using the BM25 ranking algorithm, which balances term frequency, document length, and term rarity. For each document in the postings, the searcher computes a BM25 score using parameters k = 1.2 and b = 0.75 as said in the assigment instructions, but the parameters can also be changed inside the Searcher class. Document lengths are retrieved from doc_stats.jsonl. The final score is the sum of individual term contributions and the top results are then sorted by descending score. The number of results shown is the one that user entered in the web interface while searching.
+Documents are scored using the BM25 ranking algorithm, which balances term frequency, document length, and term rarity. For each document in the postings, the searcher computes a BM25 score using parameters k = 1.2 and b = 0.75 as said in the project instructions, but the parameters can also be changed inside the Searcher class. Document lengths are retrieved from doc_stats.jsonl. The final score is the sum of individual term contributions and the top results are then sorted by descending score. The number of results shown is the one that user entered in the web interface while searching.
 
 ### Result retrieval and output
 
@@ -158,7 +158,7 @@ GEMINI_API_KEY=your_api_key_here
 
 ## 5. NEURAL RERANKER
 
-For this part of the assigment we implemented neural reranker with the goal of achieving better ranking of the documents on top of the list. We used our old BM25 algorithm from assigment 1 to retrive top K documents (generally we retrieved top 50 documents). After the documents are retrieved, we pass them to the neural relevance model with the query and calculate similarity score for each document. Documents are then sorted by the similarity/neural score and final ordering is achieved.
+For this part of the project we implemented neural reranker with the goal of achieving better ranking of the documents on top of the list. We used our old BM25 algorithm from project 1 to retrive top K documents (generally we retrieved top 50 documents). After the documents are retrieved, we pass them to the neural relevance model with the query and calculate similarity score for each document. Documents are then sorted by the similarity/neural score and final ordering is achieved.
 
 For the neural reranker we used **CrossEncoders** from **sentence_transformers** that are available on Hugging Face.CrossEncoders are models that take a query and a document as a single input pair and produce a relevance score based on their joint representation. The whole idea is to capture precise interactions between the query and document, making them particularly effective for reranking sets of candidate documents.
 
