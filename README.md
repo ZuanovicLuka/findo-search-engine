@@ -10,7 +10,7 @@ Due to GitHub file size limits, the dataset is not included in the repository.
 Download it from Dropbox and place it in the `application/data/` folder:
 
 - Download: https://www.dropbox.com/scl/fi/9c4rff1dmym5ud8aahn8r/ptwiki-articles-with-redirects.arrow?rlkey=cviaz6lfk3xrji9t4um4g87d3&e=1&st=5impxuks&dl=1
-- Path: `data/ptwiki-articles-with-redirects.arrow`
+- Path: `application/data/ptwiki-articles-with-redirects.arrow`
 
 ## Prerequisites
 
